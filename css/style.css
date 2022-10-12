@@ -168,3 +168,19 @@ body{
 .dechif:hover::after{
     left: 0;
 }
+
+.discord{
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 0 0 0 10px;
+    width: 80px;
+    height: 80px;
+    background: url(../img/discord.png) no-repeat center/cover;
+}
+
+@media screen and (max-width:1150px) {
+    body{
+        display: none;
+    }
+}
