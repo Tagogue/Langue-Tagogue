@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="tag">
-<head>
+<html>
+  <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./styles.css">
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <title>Langue Tagogue</title>
-</head>
-<body>
-
+  </head>
+  <body>
+    
     <div class="title"><h1>Traduction</h1></div>
     <div class="whiteContainer">
         <h3 id="ecriture"></h3>
@@ -18,7 +19,7 @@
     <button><a href="#" class="coller" id="coller">Coller</a></button>
     <button><a href="#" class="dechif" id="dechif">Déchiffrer/Coder</a></button>
     <a href="https://discord.gg/MKmvKQ7Ktq" target="_blank" class="discord"></a>
-    
-    <script src="js/index.js"></script>
-</body>
+
+    <script src="./renderer.js"></script>
+  </body>
 </html>
