@@ -179,6 +179,27 @@ body{
     background: url(./img/discord.png) no-repeat center/cover;
 }
 
+.sup{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 220px;
+    background: #333;
+    color: white;
+    border-radius: 10px;
+    font-size: 19px;
+    transition: 0.3s;
+}
+
+.sup:hover{
+    font-size: 24px;
+}
+
 @media screen and (max-width:1150px) {
     .coller{
         width: 150px;

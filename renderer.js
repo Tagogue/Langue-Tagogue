@@ -45,3 +45,10 @@ btnDechiff.addEventListener("click", () => {
     .join("")
     .replace(/,/g, "");
 });
+
+// Delete
+const sup = document.querySelector('.sup');
+
+sup.addEventListener('click', () => {
+  h3.textContent = "";
+})
