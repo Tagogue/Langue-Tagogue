@@ -228,6 +228,10 @@ body{
         width: 90%;
         margin-top: -30px;
     }
+    .sup{
+        top: 160px;
+        height: 40px;
+    }
 }
 
 @media screen and (max-width:650px) {
@@ -241,12 +245,17 @@ body{
 
 
 @media screen and (max-width:440px) {
-    body{
-        display: none;
+    .coller{
+        width: 150px;
+        left: 25%;
+    }
+    .copy{
+        width: 150px;
+        left: 75%;
     }
 }
 
-@media screen and (max-height:499px) {
+@media screen and (max-width:310px) {
     body{
         display: none;
     }
