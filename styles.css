@@ -231,6 +231,7 @@ body{
     .sup{
         top: 160px;
         height: 40px;
+        display: none;
     }
 }
 
